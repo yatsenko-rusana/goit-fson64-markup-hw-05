@@ -437,6 +437,27 @@ ul {
 	gap: 30px;
 }
 
+.portfolio-info {
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio-info:hover .portfolio-overlay,
+.portfolio-info:focus .portfolio-overlay {
+	transform: translateY(0);
+}
+
+.portfolio-overlay {
+	position: absolute;
+	background-color: rgba(33, 150, 243, 0.9);
+	top: 0;
+	left: 0;
+	width: 370px;
+	height: 294px;
+	transform: translateY(100%);
+	transition: transform 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-item {
 	background-color: var(--main-background-color);
 }
