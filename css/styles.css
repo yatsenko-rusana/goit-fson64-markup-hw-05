@@ -456,6 +456,13 @@ ul {
 	height: 294px;
 	transform: translateY(100%);
 	transition: transform 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+	padding: 63px 24px;
+}
+
+.portfolio-text {
+	color: rgba(255, 255, 255, 1);
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 .portfolio-item {
